@@ -1,6 +1,6 @@
 # May Nails & Spa Salon
 
-Demo website concept for **May Nails & Spa Salon** — Boise, ID, USA.
+Demo website concept for **May Nails & Spa Salon** — Boise, ID.
 
 Live preview: https://may-nails-spa-boise-mockup.netlify.app
 
