@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Directions | May Nails &amp; Spa Salon, Boise ID</title>
+<meta name="description" content="Visit May Nails & Spa Salon at 5118 W Overland Rd, Boise, ID 83705. Call +1 208-340-4830 to book your manicure, pedicure or nail art appointment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="May Nails and Spa Salon home">
+      <span class="brand-mark"><i class="bi bi-flower1"></i></span>
+      <span class="brand-name">May Nails &amp; Spa<small>Salon &middot; Boise</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-gold header-cta" href="tel:+12083404830"><i class="bi bi-telephone"></i> (208) 340-4830</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+  </div>
+</header>
+<ul class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+  <li><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
+  <li><a href="services.html"><i class="bi bi-stars"></i> Services</a></li>
+  <li><a href="gallery.html"><i class="bi bi-images"></i> Gallery</a></li>
+  <li><a href="contact.html" class="active"><i class="bi bi-geo-alt"></i> Contact</a></li>
+  <li><a href="tel:+12083404830"><i class="bi bi-telephone"></i> (208) 340-4830</a></li>
+</ul>
+
+<main>
+  <div class="page-hero">
+    <div class="container">
+      <div class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact</div>
+      <h1>Come <em>say hello</em></h1>
+      <p>Call ahead to book, or just stop by &mdash; we&rsquo;re easy to find on Overland Road in Boise.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <i class="bi bi-geo-alt-fill big"></i>
+        <h3>Find us</h3>
+        <p>5118 W Overland Rd<br>Boise, ID 83705, USA</p>
+        <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=May+Nails+%26+Spa+Salon,+5118+W+Overland+Rd,+Boise,+ID+83705" target="_blank" rel="noopener"><i class="bi bi-map"></i> Get Directions</a>
+      </div>
+      <div class="contact-card">
+        <i class="bi bi-telephone-fill big"></i>
+        <h3>Call to book</h3>
+        <p>For appointments, pricing and availability, give us a ring &mdash; we&rsquo;re happy to help you pick the right service.</p>
+        <a class="btn btn-gold" href="tel:+12083404830"><i class="bi bi-telephone"></i> +1 (208) 340-4830</a>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <i class="bi bi-star-fill big"></i>
+        <h3>Loved by Boise</h3>
+        <p>Rated 4.1 across 217 Google reviews &mdash; thank you to every guest who&rsquo;s sat in our chairs.</p>
+        <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=May+Nails+%26+Spa+Salon,+5118+W+Overland+Rd,+Boise,+ID+83705" target="_blank" rel="noopener"><i class="bi bi-google"></i> Read Reviews</a>
+      </div>
+      <div class="contact-card">
+        <i class="bi bi-clock-fill big"></i>
+        <h3>Planning your visit</h3>
+        <p>Walk-ins are welcome when chairs are open. For weekends and nail art appointments, calling ahead is recommended.</p>
+        <a class="btn btn-outline" href="services.html"><i class="bi bi-stars"></i> Browse Services</a>
+      </div>
+    </div>
+
+    <div class="map-wrap">
+      <iframe title="Map to May Nails and Spa Salon, 5118 W Overland Rd, Boise, ID" src="https://www.google.com/maps?q=May+Nails+%26+Spa+Salon,+5118+W+Overland+Rd,+Boise,+ID+83705&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="form-card">
+      <h2>Request a <em>callback</em></h2>
+      <p>Leave your name and number and we&rsquo;ll call you back to arrange your appointment.</p>
+      <form class="callback-form" id="callbackForm" novalidate>
+        <div class="field">
+          <label for="cbName">Your name</label>
+          <input id="cbName" name="name" type="text" placeholder="Jane Doe" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="cbPhone">Phone number</label>
+          <input id="cbPhone" name="phone" type="tel" placeholder="(208) 555-0123" autocomplete="tel" required>
+        </div>
+        <div class="field full">
+          <label for="cbWhen">Preferred day</label>
+          <input id="cbWhen" name="when" type="text" placeholder="e.g. Saturday morning">
+        </div>
+        <div class="full">
+          <button type="submit" class="btn btn-gold"><i class="bi bi-send"></i> Request Callback</button>
+        </div>
+      </form>
+      <div class="form-note" id="formNote" role="status">
+        Thanks! This is a design concept demo, so the form doesn&rsquo;t send anywhere yet &mdash; please call <a href="tel:+12083404830">+1 (208) 340-4830</a> to book your visit.
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="cta-band">
+        <h2>Your chair is <em>waiting</em></h2>
+        <p>Beautiful nails are one phone call away.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-gold" href="tel:+12083404830"><i class="bi bi-telephone"></i> Call (208) 340-4830</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark"><i class="bi bi-flower1"></i></span>
+          <span class="brand-name" style="color:var(--ivory)">May Nails &amp; Spa<small>Salon &middot; Boise</small></span>
+        </a>
+        <p>Boise&rsquo;s calm corner for meticulous manicures, soothing pedicures and nails that turn heads.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul class="footer-contact">
+          <li><i class="bi bi-geo-alt"></i><span>5118 W Overland Rd,<br>Boise, ID 83705</span></li>
+          <li><i class="bi bi-telephone"></i><a href="tel:+12083404830">+1 (208) 340-4830</a></li>
+          <li><i class="bi bi-star"></i><span>4.1 &middot; 217 Google reviews</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 May Nails &amp; Spa Salon. All rights reserved.</span>
+      <span>Design concept demo</span>
+    </div>
+  </div>
+</footer>
+
+<span class="concept-badge">Design concept</span>
+
+<script>
+(function () {
+  var burger = document.getElementById('hamburger');
+  var menu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', function () {
+    var open = menu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.innerHTML = open ? '<i class="bi bi-x-lg"></i>' : '<i class="bi bi-list"></i>';
+  });
+  menu.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      menu.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      burger.innerHTML = '<i class="bi bi-list"></i>';
+    });
+  });
+  var form = document.getElementById('callbackForm');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('formNote').classList.add('show');
+    form.reset();
+  });
+})();
+</script>
+</body>
+</html>
